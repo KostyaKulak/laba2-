@@ -16,9 +16,10 @@ i1 = i1 / 5;
 }
 return zero;
 }
-int main() {
-	double e;
+int main() 
+{
+	int e;
 	cin >> e;
-	pi(e);
-	cout << pi(e) << endl;
+	how_many_zero(e);
+	cout << how_many_zero(e) << endl;
 }
