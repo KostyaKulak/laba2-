@@ -16,10 +16,17 @@ i1 = i1 / 5;
 }
 return zero;
 }
+void assert(int n,int my_answer)
+{   int result=how_many_zero(n);
+	if (my_answer=result ) 
+cout << "OK" << endl;
+else 
+	cout << "FAIL" << endl;}
 int main() 
 {
-	int e;
-	cin >> e;
-	how_many_zero(e);
-	cout << how_many_zero(e) << endl;
+	assert(5,1);
+	assert(6,1);
+	assert(10,2);
+	assert(15,3);
+	assert(20,4);
 }
