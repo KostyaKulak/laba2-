@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cstdio>
-
+#include <iostream>
 using namespace std;
 
 int how_many_zero(int n){
@@ -15,4 +15,10 @@ i1 = i1 / 5;
 }
 }
 return zero;
+}
+int main() {
+	double e;
+	cin >> e;
+	pi(e);
+	cout << pi(e) << endl;
 }
