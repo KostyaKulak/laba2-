@@ -1,5 +1,6 @@
 #include <cstdio>
 #include <cmath>
+#include <iostream>
 
 using namespace std;
 
@@ -18,4 +19,10 @@ long double pi(double eps) {
 
 	}
 	return 4 * sum;
+}
+int main() {
+	double e;
+	cin >> e;
+	pi(e);
+	cout << pi(e) << endl;
 }
